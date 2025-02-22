@@ -7,7 +7,7 @@ Windows Registry Editor Version 5.00
 ;"DisableChangePassword"=dword:00000000
 
 ;======= Command Line Access ========
-;[HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\System]
+[HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\System]
 "DisableCMD"=dword:00000000
 
 ;======= Control Panel & Settings ========
