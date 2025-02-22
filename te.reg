@@ -17,7 +17,12 @@ Windows Registry Editor Version 5.00
 
 ;[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Windows\Personalization]
 ;"NoChangingLockScreen"=dword:00000000
+; Enable Right Mouse Button  
+[HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\Explorer]  
+"NoViewContextMenu"=dword:00000000  
 
+[HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\Explorer]  
+"NoViewContextMenu"=dword:00000000 
 ;======= Desktop & UI Restrictions ========
 ;[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer]
 ;"NoClose"=dword:00000000
